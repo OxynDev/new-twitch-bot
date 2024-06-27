@@ -35,7 +35,7 @@ class Follow:
 
                 for i in range(len(tokens_data)):
                     try:
-                        token_id, token, token_username, email, e_code, proxy = random.choice(tokens_data).split("|")
+                        token_id, token, token_username, proxy = random.choice(tokens_data).split("|")
 
                         if not token in self.followed_tokens:
                             break
