@@ -7,7 +7,7 @@ new = []
 
 for i in tokens_list:
     new_data = None
-    if i.count("|") == 4:
+    if i.count("|") == 2:
         new_data = i + "|" + random.choice(proxies_list)
     else:
         new_data = i
